@@ -4,10 +4,13 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { AppAnotherComponent } from './app-another/app-another.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AppAnotherComponent
   ],
   imports: [
     BrowserModule,
@@ -15,6 +18,6 @@ import { AppComponent } from './app.component';
     HttpModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent,AppAnotherComponent]
 })
 export class AppModule { }
