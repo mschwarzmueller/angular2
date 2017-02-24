@@ -18,6 +18,6 @@ import { AppAnotherComponent } from './app-another/app-another.component';
     HttpModule
   ],
   providers: [],
-  bootstrap: [AppComponent,AppAnotherComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
